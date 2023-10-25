@@ -6,11 +6,19 @@ public class DogRunner {
         Dog dog4 = new Dog("Spot", 5, true);
         Dog dog5 = new Dog("Petunia", 12, true);
 
-        // reference variables
+        // create new reference variables dog6, dog7, dog8
         Dog dog6 = dog1;
         Dog dog7 = dog2;
+        Dog dog8 = dog6;
 
-        System.out.println(dog6 == dog1);
-        System.out.println(dog1 == dog7);
+        // printing
+        System.out.println(dog1);
+        System.out.println(dog2);
+        System.out.println(dog3);
+        System.out.println(dog4);
+        System.out.println(dog5);
+        System.out.println(dog6);
+        System.out.println(dog7);
+        System.out.println(dog8);
     }
 }
